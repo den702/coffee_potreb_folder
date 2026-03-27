@@ -1,0 +1,23 @@
+# Структура папки
+
+- 'Coffee_potreb/' — основная логика проекта  
+  - Здесь находятся все модули и скрипты
+- 'tests/'  — тесты на Pytest 
+- 'reports/' — отчеты
+
+#Запуск проекта
+1. Клонируем репозиторий:
+
+--- ввести следующую команду в терминале
+
+git clone https://github.com/den702/coffee_potreb_folder.git
+cd coffee_potreb_folder
+
+2. Построение отчета
+--- ввести следующую команду в терминале
+python main.py --files math.csv physics.csv programming.csv --report median-coffee
+
+
+3. Запуск тестов
+--- ввести следующую команду в терминале
+python -m pytest  
